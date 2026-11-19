@@ -1,0 +1,40 @@
+{
+  "seed": 20261119,
+  "train_documents": 6122,
+  "val_documents": 132,
+  "test_documents": 180,
+  "negative_documents": 60,
+  "hard_documents": 90,
+  "per_attribute_documents": 60,
+  "test_spans": {
+    "SURNAME": 180,
+    "NAME": 180,
+    "PATRONYMIC": 180,
+    "INN": 180,
+    "OGRNIP": 180,
+    "PASSPORT": 180,
+    "BANK_CARD": 180,
+    "PHONE": 180,
+    "EMAIL": 180,
+    "IP": 180,
+    "KLADR": 180,
+    "SNILS": 180,
+    "BIRTH_CERT": 180
+  },
+  "test_tokens": 12137,
+  "attributes": [
+    "SURNAME",
+    "NAME",
+    "INN",
+    "PASSPORT",
+    "BANK_CARD",
+    "OGRNIP",
+    "IP",
+    "EMAIL",
+    "BIRTH_CERT",
+    "KLADR",
+    "PATRONYMIC",
+    "PHONE",
+    "SNILS"
+  ]
+}

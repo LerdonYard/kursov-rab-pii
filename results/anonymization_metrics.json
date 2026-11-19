@@ -1,0 +1,84 @@
+{
+  "documents": 180,
+  "replacements": 2340,
+  "changed": 2340,
+  "unchanged": 0,
+  "validation_errors": [],
+  "morphology_checked": 540,
+  "morphology_ok": 540,
+  "morphology_failed": [],
+  "idempotency_checked": 8,
+  "idempotency_ok": 8,
+  "idempotency_failed": [],
+  "by_attribute": {
+    "SURNAME": {
+      "count": 180,
+      "changed": 180,
+      "errors": 0
+    },
+    "NAME": {
+      "count": 180,
+      "changed": 180,
+      "errors": 0
+    },
+    "PATRONYMIC": {
+      "count": 180,
+      "changed": 180,
+      "errors": 0
+    },
+    "INN": {
+      "count": 180,
+      "changed": 180,
+      "errors": 0
+    },
+    "OGRNIP": {
+      "count": 180,
+      "changed": 180,
+      "errors": 0
+    },
+    "PASSPORT": {
+      "count": 180,
+      "changed": 180,
+      "errors": 0
+    },
+    "BANK_CARD": {
+      "count": 180,
+      "changed": 180,
+      "errors": 0
+    },
+    "PHONE": {
+      "count": 180,
+      "changed": 180,
+      "errors": 0
+    },
+    "EMAIL": {
+      "count": 180,
+      "changed": 180,
+      "errors": 0
+    },
+    "IP": {
+      "count": 180,
+      "changed": 180,
+      "errors": 0
+    },
+    "KLADR": {
+      "count": 180,
+      "changed": 180,
+      "errors": 0
+    },
+    "SNILS": {
+      "count": 180,
+      "changed": 180,
+      "errors": 0
+    },
+    "BIRTH_CERT": {
+      "count": 180,
+      "changed": 180,
+      "errors": 0
+    }
+  },
+  "second_run_different": 180,
+  "morphology_accuracy": 1.0,
+  "idempotency_accuracy": 1.0,
+  "replacement_rate": 1.0
+}
