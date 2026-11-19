@@ -329,6 +329,7 @@ def build() -> Path:
             ["Валидационная (val)", str(stats["val_documents"]), "контроль при обучении NER-модели"],
             ["Тестовая (test)", str(stats["test_documents"]), "оценка качества распознавания"],
             ["Негативная (negative)", str(stats["negative_documents"]), "проверка ложных срабатываний"],
+            ["Сложная (hard)", str(stats.get("hard_documents", 0)), "другие формулировки и форматы записи"],
             ["По атрибутам", f"{stats['per_attribute_documents']} × {len(stats['attributes'])}", "отдельные файлы test_by_attribute"],
         ],
         widths=[5.0, 3.2, 7.8],
