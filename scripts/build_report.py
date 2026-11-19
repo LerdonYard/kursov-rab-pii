@@ -918,7 +918,17 @@ def build() -> Path:
         "скрипты generate_dataset.py, evaluate_recognition.py, "
         "evaluate_anonymization.py и evaluate_bertscore.py. Результаты "
         "сохраняются в каталоге results, отчёт — в каталоге report. "
-        "Юнит-тесты запускаются командой python -m unittest discover -s tests."
+        "Юнит-тесты запускаются командой python -m unittest discover -s tests. "
+        "Полный цикл воспроизводится одной командой scripts/run_all.sh."
+    )
+    report.p(
+        "Исходный код программы, набор данных, результаты экспериментов и "
+        "отчёт размещены в одном каталоге kursov_rab и опубликованы в "
+        "репозитории: https://github.com/LerdonYard/kursov-rab-pii. "
+        "Веса обученной RuBERT-модели (около 700 МБ) в репозиторий не "
+        "включены; после клонирования они привязываются скриптом "
+        "scripts/link_model.sh или переменной окружения KURSOV_RAB_MODEL. "
+        "Дополнительно подготовлен архив kursov_rab_program.zip."
     )
 
     report.save()
